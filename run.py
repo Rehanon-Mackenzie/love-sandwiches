@@ -58,7 +58,7 @@ def validate_data(values):
 def update_sales_worksheet(data):
     """
     Update sales, worksheet, add new row with the data provided.
-    """ 
+    """
     print("Updating sales worksheet...\n")
     sales_worksheet = SHEET.worksheet("sales")
     sales_worksheet.append_row(data)
